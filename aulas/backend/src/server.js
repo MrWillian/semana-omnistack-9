@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const routes = require('./routes');
 
@@ -15,6 +16,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-58x2s.mongodb.net/a
 // req.body = Acessar corpo da requisição (para criação, edição)
 // req.headers = Serve para definir o contexto da requisição (contexto de autenticação, idioma do usuário)
 
+app.use(cors());
 app.use(express.json()); //Necessário para que o express entenda o JSON
 app.use(routes); // Precisa vir depois da linha do express.json()
 
