@@ -4,9 +4,10 @@ OmniStack Week 9
 <br />
 <br />
 
-<ul>
+
 Projects:<br />
-      <li>aulas</li>
+      aulas
+<ul>
       <li>aircnc</li>
       <li>backend</li>
       <li>frontend</li>
