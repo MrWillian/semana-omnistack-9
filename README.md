@@ -1,14 +1,14 @@
 # semana-omnistack-9
 
 OmniStack Week 9
-
-Projects:
-  aulas
-      aircnc
-      backend
-      frontend
+<br />
+Projects:<br />
+  aulas<br />
+      aircnc<br />
+      backend<br />
+      frontend<br />
      
 
-AirCnC -> React Native App for Clients
-backend -> Node.js
-frontend -> ReactJS for ADM
+AirCnC -> React Native App for Clients<br />
+backend -> Node.js<br />
+frontend -> ReactJS for ADM<br />
